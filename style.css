@@ -9,3 +9,7 @@
 /* Header styles */
 
 @import url(css/components/header/header.css);
+
+/* Showcase styles */
+
+@import url(css/components/main/showcase/showcase.css);

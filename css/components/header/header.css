@@ -2,6 +2,7 @@
     font-family: Poppins;
     font-weight: 300;
 }
+
 .header__container {
     height: 7.25rem;
     display: flex;
@@ -9,26 +10,44 @@
     align-items: center;
     justify-content: space-between;
 }
+
 .header__logo {
     flex: 1 1 auto;
 }
+
 .header__nav {
     line-height: 1.625rem;
 }
+
 .header__nav-list {
     display: flex;
     column-gap: 2.25rem;
 }
+
 .header__panel {
      display: flex;
      align-items: center;
      column-gap: 2rem;
 }
+
 .header__panel-link {
     display: flex;
     column-gap: 0.25rem;
     font-size: 1.1rem;
     line-height: 1.75rem;
+}
+
+.header__panel-circle {
+    background-color: #81818B4D;
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 0.875rem;
+    width: 1.875rem;
+    height: 1.875rem;
+    border-radius: 1.875rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 @media (max-width: 991.98px) {

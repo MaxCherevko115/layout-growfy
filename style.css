@@ -17,3 +17,7 @@
 /* Clients styles */
 
 @import url(css/components/main/clients/clients.css);
+
+/* Services styles */
+
+@import url(css/components/main/services/services.css);

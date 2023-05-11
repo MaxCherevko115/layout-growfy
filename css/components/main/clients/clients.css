@@ -1,5 +1,6 @@
 .clients {
-    padding: 10rem 0;
+    padding-top: 6rem;
+    padding-bottom: 5rem;
 }
 
 .clients__title {
@@ -8,10 +9,10 @@
     letter-spacing: 0.0625rem;
     text-transform: uppercase;
     text-align: center;
+    margin-bottom: 1.5625rem;
 }
 
 .clients__list {
-    padding-top: 1.5625rem;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -20,6 +21,7 @@
 
 @media (max-width: 767.98px) {
     .clients {
-        padding: 5rem 0;
+        padding-top: 3rem;
+        padding-bottom: 2.5rem;
     }
 }

@@ -1,0 +1,54 @@
+.header {
+    font-family: Poppins;
+    font-weight: 300;
+}
+.header__container {
+    height: 7.25rem;
+    display: flex;
+    column-gap: 2rem;
+    align-items: center;
+    justify-content: space-between;
+}
+.header__logo {
+    flex: 1 1 auto;
+}
+.header__nav {
+    line-height: 1.625rem;
+}
+.header__nav-list {
+    display: flex;
+    column-gap: 2.25rem;
+}
+.header__panel {
+     display: flex;
+     align-items: center;
+     column-gap: 2rem;
+}
+.header__panel-link {
+    display: flex;
+    column-gap: 0.25rem;
+    font-size: 1.1rem;
+    line-height: 1.75rem;
+}
+
+@media (max-width: 991.98px) {
+    .header__nav-list {
+        column-gap: 1.35rem;
+    }
+    .header__panel {
+        column-gap: 1rem;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .header__nav {
+        display: none;
+    }
+    .header__panel {
+        display: none;
+    }
+    .header__container {
+        height: 3.625rem;
+    }
+}
+

@@ -1,0 +1,11 @@
+/* Reset styles */
+
+@import url(css/vendor/reset.css);
+
+/* Main styles */
+
+@import url(css/components/index.css);
+
+/* Header styles */
+
+@import url(css/components/header/header.css);

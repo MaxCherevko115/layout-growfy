@@ -13,3 +13,7 @@
 /* Showcase styles */
 
 @import url(css/components/main/showcase/showcase.css);
+
+/* Clients styles */
+
+@import url(css/components/main/clients/clients.css);

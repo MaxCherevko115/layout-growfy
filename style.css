@@ -29,3 +29,7 @@
 /* Advantages styles */
 
 @import url(css/components/main/advantages/advantages.css);
+
+/* Testimonials styles */
+
+@import url(css/components/main/testimonials/testimonials.css);

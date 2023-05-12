@@ -1,0 +1,108 @@
+.testimonials {
+    padding: 6rem 0;
+}
+
+.testimonials__body {
+    display: flex;
+    justify-content: space-between;
+    gap: 2.5rem;
+    margin-bottom: 4rem;
+}
+
+.testimonials__label {
+    display: flex;
+    margin-bottom: 1.1875rem;
+}
+
+.testimonials__title {
+    margin-bottom: 0.75rem;
+    max-width: 39.0625rem;
+}
+
+.testimonials__desc {
+    max-width: 46rem;
+}
+
+.testimonials__actions {
+    align-self: flex-end;
+}
+
+.testimonials__items {
+    display: flex;
+    gap: 3rem;
+}
+
+.testimonials__items-item {
+    font-weight: 300;
+    padding: 2.5rem 4rem;
+    background: rgba(129, 129, 139, 0.1);
+    border-radius: 1.875rem;
+}
+
+.testimonials__items-profile {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    margin-bottom: 2.0625rem;
+}
+
+.testimonials__items-item:nth-child(1) img {
+    border-radius: 0 4.2519rem 4.2519rem 4.2519rem;
+}
+
+.testimonials__items-item:nth-child(2) img {
+    border-radius: 4.2519rem 0 4.2519rem 4.2519rem;
+}
+
+.testimonials__items-item:nth-child(3) img {
+    border-radius: 4.2519rem 4.2519rem 0 4.2519rem;
+}
+
+.testimonials__items-name {
+    line-height: 1.5rem;
+}
+
+.testimonials__items-company {
+    font-size: 0.875rem;
+    line-height: 1.375rem;
+    color: #9C9C9C;
+}
+
+.testimonials__items-title {
+    font-size: 2rem;
+    line-height: 2.8125rem;
+    max-width: 18.125rem;
+    margin-bottom: 2.0625rem;
+}
+
+.testimonials__items-text {
+    color: #9C9C9C;
+    max-width: 19.5rem;
+    line-height: 1.5rem;
+    margin-bottom: 2.0625rem;
+}
+
+.testimonials__items-rating {
+    margin-bottom: 1.25rem;
+}
+
+@media (max-width: 1150px) {
+    .testimonials__items {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media (max-width: 767.98px) {
+    .testimonials__body {
+        flex-direction: column;
+    }
+    .testimonials__actions {
+        align-self: unset;
+    }
+    .testimonials__actions-button {
+        display: block;
+    }
+    .testimonials {
+        padding: 3rem 0;
+    }
+}

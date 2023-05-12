@@ -5,7 +5,7 @@
 [class *= "__container"] {
     max-width:  1300px;
     margin: 0 auto;
-    padding: 0px 10px;
+    padding: 0 0.625rem;
 }
 
 body {

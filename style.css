@@ -37,3 +37,7 @@
 /* Blog styles */
 
 @import url(css/components/main/blog/blog.css);
+
+/* Start styles */
+
+@import url(css/components/main/start/start.css);

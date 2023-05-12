@@ -2,11 +2,12 @@
 
 @import url(css/vendor/reset.css);
 
-/* Main styles */
+/* Index styles */
 
 @import url(css/components/index.css);
 
 /* Header styles */
+
 
 @import url(css/components/header/header.css);
 
@@ -41,3 +42,8 @@
 /* Start styles */
 
 @import url(css/components/main/start/start.css);
+
+
+/* Footer styles */
+
+@import url(css/components/footer/footer.css);

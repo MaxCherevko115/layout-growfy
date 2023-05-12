@@ -1,0 +1,110 @@
+.footer__container {
+    font-weight: 300;
+    line-height: 1.5rem;
+    color: #9C9C9C;
+}
+
+.footer__content {
+    padding: 10rem 0;
+    display: grid;
+    gap: 3rem;
+    grid-template-columns: minmax(auto, 378px) auto auto minmax(auto, 378px);
+}
+
+.footer__desc-logo {
+    margin-bottom: 2rem;
+}
+
+.footer__desc-text {
+    margin-bottom: 2rem;
+}
+
+.footer__desc-icons {
+    display: flex;
+    gap: 1rem;
+}
+
+.footer__header {
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    margin-bottom: 1.875rem;
+}
+
+.footer__list {
+    font-weight: 300;
+    font-size: 1rem;
+    line-height: 1.625rem;
+    color: #9C9C9C;
+}
+
+.footer__list-item a {
+    color: #9C9C9C;
+
+}
+
+.footer__list-item:not(:last-child) {
+    margin-bottom: 1.5625rem;
+}
+
+.footer__newsletter-text {
+    margin-bottom: 2.0625rem;
+}
+
+.footer__newsletter-actions {
+    display: flex;
+    gap: 1rem;
+}
+
+.footer__newsletter-input {
+    padding: 0.9375rem 2.0625rem;
+    background-color: #0D0D11;
+    border: 1px solid rgba(129, 129, 139, 0.3);
+    border-radius: 3.125rem;
+}
+
+.footer__copyright {
+    padding: 2.875rem 0;
+    text-align: center;
+    border-top: 1px solid rgba(129, 129, 139, 0.2);;
+}
+
+@media (max-width: 1200px) {
+    .footer__content {
+        grid-template-columns: minmax(auto, 378px) auto auto minmax(auto, 378px);
+        gap: 2rem;
+    }
+    .footer__desc {
+        grid-column: span 4;
+    }
+    .footer__newsletter {
+        grid-column: span 2;
+    }
+}
+@media (max-width: 767.98px) {
+    .footer__content {
+        padding: 5rem 0;
+    }
+    .footer__newsletter-input {
+        flex: auto;
+    }
+    .footer__newsletter {
+        grid-column: span 4;
+    }
+    .footer__pages {
+        grid-column: span 2;
+    }
+    .footer__utility {
+        grid-column: span 2;
+    }
+
+}
+@media (max-width: 575.98px) {
+    .footer__newsletter-actions {
+        flex-direction: column;
+    }
+    .footer__copyright {
+        padding: 1.4375rem 0;
+    }
+}

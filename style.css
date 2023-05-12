@@ -21,3 +21,11 @@
 /* Services styles */
 
 @import url(css/components/main/services/services.css);
+
+/* Marketing styles */
+
+@import url(css/components/main/marketing/marketing.css);
+
+/* Advantages styles */
+
+@import url(css/components/main/advantages/advantages.css);

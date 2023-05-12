@@ -1,0 +1,108 @@
+.marketing {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+
+.marketing__container {
+    display: flex;
+    align-items: center;
+    gap: 4.1875rem;
+}
+
+.marketing__images {
+    display: flex;
+    flex: 0 1 50%;
+    align-self: flex-end;
+    align-items: flex-end;
+    position: relative;
+}
+
+.marketing__images::before {
+    content: '';
+    position: absolute;
+    width: 7.625rem;
+    height: 7.625rem;
+    left: 0;
+    bottom: 0;
+    background-image: url('../../../../images/decor.svg');
+}
+
+.marketing__image_big {
+    border-radius: 40.625rem 0 23.625rem 23.625rem;
+}
+
+.marketing__image_small {
+    border-radius: 11.3399rem 11.3399rem 11.3399rem 0;
+}
+
+.marketing__images img {
+    max-width: 100%;
+}
+
+.marketing__text {
+    flex: 0 1 50%;
+}
+
+.marketing__label {
+    display: flex;
+    margin-bottom: 2.6875rem;
+}
+
+.marketing__title {
+    margin-bottom: 2.5rem;
+}
+
+.marketing__desc {
+    margin-bottom: 2.5rem;
+    max-width: 30.625rem;
+}
+
+.marketing__list-item {
+    position: relative;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.5rem;
+    color: #9C9C9C;
+    padding-left: 2.5rem;
+    padding-top: 0.3125rem;
+}
+
+.marketing__list-item:not(:last-child) {
+    margin-bottom: 1rem;
+}
+
+.marketing__list-item::before {
+    content: '';
+    position: absolute;
+    width: 2rem;
+    height: 2rem;
+    left: 0;
+    top: 0;
+    background: rgba(129, 129, 139, 0.1) url('../../../../icons/main/marketing/checkmark.svg') center no-repeat;
+    border-radius: 2rem;
+}
+
+@media (max-width: 991.98px) {
+    .marketing__container {
+        gap: 2rem;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .marketing {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+    .marketing__container {
+        flex-direction: column-reverse;
+    }
+    .marketing__label {
+        margin-bottom: 1.1875rem;
+    }
+    .marketing__title {
+        margin-bottom: 0.75rem;
+    }   
+    .marketing__images {
+        align-self: center;
+    }
+}

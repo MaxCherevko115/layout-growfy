@@ -13,16 +13,9 @@
     flex: 0 1 50%;
 }
 
-.services__logo {
+.services__label {
     display: flex;
     margin-bottom: 1.1875rem;
-}
-
-.services__logo-content {
-    padding: 0.6875rem 1.1875rem;
-    color: #81818B;
-    border: 1px solid rgba(129, 129, 139, 0.2);
-    border-radius: 0.75rem;
 }
 
 .services__title {
@@ -73,12 +66,14 @@
 }
 
 @media (max-width: 1200px) {
+    .services__container {
+        flex-direction: column;
+    }
+}
+@media (max-width: 767.98px) {
     .services {
         padding-top: 2.5rem;
         padding-bottom: 3rem;
-    }
-    .services__container {
-        flex-direction: column;
     }
 }
 @media (max-width: 575.98px) {

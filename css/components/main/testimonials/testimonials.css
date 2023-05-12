@@ -93,6 +93,14 @@
     }
 }
 @media (max-width: 767.98px) {
+    .testimonials {
+        padding: 3rem 0;
+    }
+}
+@media (max-width: 650px) {
+    .testimonials__items-item {
+        padding: 1.5rem 2rem;
+    }
     .testimonials__body {
         flex-direction: column;
     }
@@ -101,8 +109,5 @@
     }
     .testimonials__actions-button {
         display: block;
-    }
-    .testimonials {
-        padding: 3rem 0;
     }
 }

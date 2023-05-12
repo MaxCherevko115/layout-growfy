@@ -33,3 +33,7 @@
 /* Testimonials styles */
 
 @import url(css/components/main/testimonials/testimonials.css);
+
+/* Blog styles */
+
+@import url(css/components/main/blog/blog.css);

@@ -1,0 +1,133 @@
+.blog {
+    padding: 6rem 0;
+}
+
+.blog__body {
+    display: flex;
+    justify-content: space-between;
+    gap: 2.5rem;
+    margin-bottom: 4rem;
+}
+
+.blog__label {
+    display: flex;
+    margin-bottom: 1.1875rem;
+}
+
+.blog__title {
+    margin-bottom: 0.75rem;
+    max-width: 24.5rem;
+}
+
+.blog__desc {
+    max-width: 46rem;
+}
+
+.blog__actions {
+    align-self: flex-end;
+}
+
+.blog__actions-button {
+    padding: 1rem 2.625rem;
+}
+
+.blog__items {
+    display: flex;
+    gap: 3rem;
+}
+
+.blog__items-item {
+    font-weight: 300;
+    background: rgba(129, 129, 139, 0.1);
+    border-radius: 1.875rem;
+    overflow: hidden;
+}
+
+.blog__items-photo {
+    position: relative;
+}
+
+.blog__items-item:nth-child(1) .blog__items-photo::before {
+    content: 'Social Media';
+    position: absolute;
+    bottom: 0;
+    padding: 0.625rem 0.5625rem;
+    background: rgba(129, 129, 139, 0.5);
+    border-radius: 0 0.625rem 0 0;
+}
+
+.blog__items-item:nth-child(2) .blog__items-photo::before {
+    content: 'Seo';
+    position: absolute;
+    bottom: 0;
+    padding: 0.625rem 0.5625rem;
+    background: rgba(129, 129, 139, 0.5);
+    border-radius: 0 0.625rem 0 0;
+}
+
+.blog__items-item:nth-child(3) .blog__items-photo::before {
+    content: 'Strategy';
+    position: absolute;
+    bottom: 0;
+    padding: 0.625rem 0.5625rem;
+    background: rgba(129, 129, 139, 0.5);
+    border-radius: 0 0.625rem 0 0;
+}
+
+.blog__items-photo img {
+    max-width: 100%;
+}
+
+.blog__items-body {
+    padding: 1.625rem 1.625rem 2.5rem 1.625rem;
+}
+
+.blog__items-date {
+    color: #9C9C9C;
+    line-height: 1.5rem;
+    margin-bottom: 1.25rem;
+}
+
+.blog__items-title {
+    font-size: 1.2rem;
+    line-height: 1.6875rem;
+    max-width: 15rem;
+    margin-bottom: 1.875rem;
+}
+
+.blog__items-text {
+    color: #9C9C9C;
+    max-width: 21.25rem;
+    line-height: 1.5rem;
+    margin-bottom: 1.3125rem;
+}
+
+.blog__items-link a {
+    color: #3D96F4;
+}
+
+@media (max-width: 1150px) {
+    .blog__items {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media (max-width: 767.98px) {
+    .blog {
+        padding: 3rem 0;
+    }
+}
+@media (max-width: 650px) {
+    .blog__body {
+        flex-direction: column;
+    }
+    .blog__actions {
+        align-self: unset;
+    }
+    .blog__actions-button {
+        display: block;
+    }
+    .blog__items-body {
+        padding: 0.9375rem 0.9375rem 1.25rem 0.9375rem;
+    }
+}

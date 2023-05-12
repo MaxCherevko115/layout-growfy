@@ -50,6 +50,7 @@
 
 .marketing__title {
     margin-bottom: 2.5rem;
+    max-width: 35rem;
 }
 
 .marketing__desc {

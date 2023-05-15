@@ -6,10 +6,13 @@
 
 @import url(css/components/index.css);
 
+
+
 /* Header styles */
 
-
 @import url(css/components/header/header.css);
+
+
 
 /* Showcase styles */
 
@@ -42,6 +45,7 @@
 /* Start styles */
 
 @import url(css/components/main/start/start.css);
+
 
 
 /* Footer styles */

@@ -79,7 +79,7 @@ header a:hover {
     font-size: 1.5rem;
     height: 100%;
     width: 100%;
-    right: -100%;
+    left: -100%;
     z-index: 5;
     transition: all .7s;
 }
@@ -89,7 +89,7 @@ header a:hover {
 }
 
 .header__menu.active {
-    right: 0;
+    left: 0;
 }
 
 @media (max-width: 991.98px) {

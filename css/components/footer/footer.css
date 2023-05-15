@@ -1,4 +1,4 @@
-.footer__container {
+.footer {
     font-weight: 300;
     line-height: 1.5rem;
     color: #9C9C9C;
@@ -24,24 +24,28 @@
     gap: 1rem;
 }
 
+.footer__desc-item:hover {
+    filter: invert(76%) sepia(43%) saturate(0%) hue-rotate(268deg) brightness(99%) contrast(83%);
+}
+
 .footer__header {
     color: #FFFFFF;
     font-weight: 500;
     font-size: 1.25rem;
-    line-height: 1.5rem;
     margin-bottom: 1.875rem;
 }
 
 .footer__list {
-    font-weight: 300;
-    font-size: 1rem;
     line-height: 1.625rem;
     color: #9C9C9C;
 }
 
 .footer__list-item a {
     color: #9C9C9C;
+}
 
+.footer__list-item a:hover {
+    color: #c5c5c5;
 }
 
 .footer__list-item:not(:last-child) {
@@ -84,6 +88,7 @@
 }
 @media (max-width: 767.98px) {
     .footer__content {
+        grid-template-columns: auto auto;
         padding: 5rem 0;
     }
     .footer__newsletter-input {
@@ -92,15 +97,15 @@
     .footer__newsletter {
         grid-column: span 4;
     }
+    .footer__utility,
     .footer__pages {
         grid-column: span 2;
     }
-    .footer__utility {
-        grid-column: span 2;
-    }
-
 }
 @media (max-width: 575.98px) {
+    .footer__content {
+        padding: 2.5rem 0;
+    }
     .footer__newsletter-actions {
         flex-direction: column;
     }

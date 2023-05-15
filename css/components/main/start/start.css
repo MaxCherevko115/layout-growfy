@@ -40,7 +40,11 @@
 }
 
 .start__actions-button_black {
-    background: rgba(129, 129, 139, 0.2);
+    background: #81818b33;
+}
+
+.start__actions-button_black:hover {
+    background: #63636b33;
 }
 
 @media (max-width: 767.98px) {

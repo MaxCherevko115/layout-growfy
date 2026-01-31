@@ -10,44 +10,44 @@
 
 /* Header styles */
 
-@import url(css/components/header/header.css);
+@import url(css/components/header.css);
 
 
 
 /* Showcase styles */
 
-@import url(css/components/main/showcase/showcase.css);
+@import url(css/components/main/showcase.css);
 
 /* Clients styles */
 
-@import url(css/components/main/clients/clients.css);
+@import url(css/components/main/clients.css);
 
 /* Services styles */
 
-@import url(css/components/main/services/services.css);
+@import url(css/components/main/services.css);
 
 /* Marketing styles */
 
-@import url(css/components/main/marketing/marketing.css);
+@import url(css/components/main/marketing.css);
 
 /* Advantages styles */
 
-@import url(css/components/main/advantages/advantages.css);
+@import url(css/components/main/advantages.css);
 
 /* Testimonials styles */
 
-@import url(css/components/main/testimonials/testimonials.css);
+@import url(css/components/main/testimonials.css);
 
 /* Blog styles */
 
-@import url(css/components/main/blog/blog.css);
+@import url(css/components/main/blog.css);
 
 /* Start styles */
 
-@import url(css/components/main/start/start.css);
+@import url(css/components/main/start.css);
 
 
 
 /* Footer styles */
 
-@import url(css/components/footer/footer.css);
+@import url(css/components/footer.css);

@@ -23,7 +23,7 @@
     height: 7.625rem;
     left: -1.875rem;
     top: -1rem;
-    background-image: url('../../../../images/decor.svg');
+    background-image: url('../../../images/decor.svg');
 }
 
 .showcase__title {

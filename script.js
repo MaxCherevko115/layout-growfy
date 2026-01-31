@@ -1,12 +1,10 @@
-const menuButton = document.querySelector('.header__button');
-const menu = document.querySelector('.header__menu');
+const menuButton = document.getElementById('header-button');
+const menu = document.getElementById('header-menu');
 
 window.onload = function() {
-
     menuButton.addEventListener('click', () => {
         document.body.classList.toggle('lock');
         menuButton.classList.toggle('active');
         menu.classList.toggle('active');
     });
-    
 };

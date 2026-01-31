@@ -24,7 +24,7 @@
     height: 7.625rem;
     left: 0;
     bottom: 0;
-    background-image: url('../../../../images/decor.svg');
+    background-image: url('../../../images/decor.svg');
 }
 
 .marketing__image_big {
@@ -79,7 +79,7 @@
     height: 2rem;
     left: 0;
     top: 0;
-    background: rgba(129, 129, 139, 0.1) url('../../../../icons/main/marketing/checkmark.svg') center no-repeat;
+    background: rgba(129, 129, 139, 0.1) url('../../../icons/main/marketing/checkmark.svg') center no-repeat;
     border-radius: 2rem;
 }
 

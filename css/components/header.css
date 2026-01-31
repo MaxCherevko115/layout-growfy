@@ -61,14 +61,15 @@ header a:hover {
 }
 
 .header__button {
+    background-color: transparent;
     display: none;
     width: 30px;
     height: 30px;
-    background-image: url('../../../icons/header/burger.svg');
+    background-image: url('../../icons/header/burger.svg');
 }
 
 .header__button.active {
-    background-image: url('../../../icons/header/close-burger.svg');
+    background-image: url('../../icons/header/close-burger.svg');
 }
 
 .header__menu {

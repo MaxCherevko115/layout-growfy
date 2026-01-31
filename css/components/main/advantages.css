@@ -40,7 +40,7 @@
 
 .advantages__image img {
     max-width: 100%;
-    border-radius: 0px 23.625rem 23.625rem 23.625rem;
+    border-radius: 0 23.625rem 23.625rem 23.625rem;
 }
 
 @media (max-width: 991.98px) {
